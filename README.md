@@ -141,7 +141,7 @@ This patch is the base patch file. All subsequent patch files are derived from t
 
 All the `.patch` files need to be in `X:\gta5\src\dev_ng\` along with `Patch_Source.bat`. Run `Patch_Source.bat` to apply the patches.
 
-now go to X:\gta5\src\dev_ng\rage\base\src\system\main.cpp open the file and search for `bool g_EnableRfs = true;` and change true to false.
+now go to `X:\gta5\src\dev_ng\rage\base\src\system\main.cpp` open the file and search for `bool g_EnableRfs = true;` and change true to false.
 
 ---
 
