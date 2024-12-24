@@ -28,6 +28,36 @@ You can download the Update PKG for version 1.46 from the following link:
 
 ---
 
+## Create X:\ Drive:
+  - Create a new folder called “GTA” to the Desktop or anywhere that you want.
+  - Inside the “GTA” folder create a folder called “gta5”.
+  - Copy all content from the “GTAV Source” Folder to “gta5”.
+  - Now right click on the “gta5” folder and turn off the “Read-Only” option then press “Apply”.
+### 5. **Map the X: Drive to the Folder Using the `net use` Command**
+   - Open **Command Prompt** with Administrator privileges:
+     - Search for **cmd** in the Start menu.
+     - Right-click **Command Prompt** and select **Run as administrator**.
+   - Run the following command, replacing `<username>` with your actual username and `<path_to_gta_folder>` with the location where the **GTA** folder is saved:
+     ```bash
+     net use X: \\localhost\c$\Users\<username>\Desktop\<path_to_gta_folder> /persistent:yes
+     ```
+     For example:
+     ```bash
+     net use X: \\localhost\c$\Users\Seb\Desktop\GTA /persistent:yes
+     ```
+
+     - **Note**: Replace `<username>` with your actual Windows username, and `<path_to_gta_folder>` with the correct path to your **GTA** folder if it's not on the Desktop.
+
+### 6. **Verify the X: Drive**
+   - Open **File Explorer**.
+   - You should now see the **X:** drive mapped to your **GTA** folder.
+
+---
+
+## Notes:
+- The `net use` command maps the folder as the **X:** drive. You can access the folder as if it were a separate drive on your computer.
+- The **/persistent:yes** flag ensures that the drive will be mapped automatically every time you log in to Windows.
+
 ## Build Preparations
 
 1. **Download 7Zip-ZSTD**  
@@ -74,6 +104,9 @@ You can download the Update PKG for version 1.46 from the following link:
 
 3. **IncrediBuild Installation**  
    Open `X:\1. Main-User-Tools\3. Redistributables\3. Incredibuild` and run `Install.bat`. Note that this will require **Administrator Privileges**.
+ - At „Welcome“ select „Install IncrediBuild“
+ - At Component Selection select IncrediBuild Agent and IncrediBuild Coordinator
+ - Do not change any other settings
 
 4. **DirectX SDK (June 2010) Installation**  
    Open `X:\1. Main-User-Tools\4. Redistributables\3. DirectX SDK (June 2010)` and launch `DXSDK_Jun10.exe`.  
@@ -193,7 +226,7 @@ If everything was done correctly, you will get `game_orbis_bankrelease.elf`. Ren
 
 ## EXTRACT CONTENT OF PKG UPDATE
 
-1. Download the PS4 Patch builder from: `https://archive.org/details/patch-builder-v-1.3.3`  
+1. Download the PS4 Patch builder from: https://archive.org/details/patch-builder-v-1.3.3 
 2. Extract the folder from the zip file.
 3. Run `Patch Builder v.1.3.3.exe`. (don't worry if it's detected as a virus, it is a false positive)
 4. On the right side under Package Extraction, select the 3 dots and choose your Package file.
@@ -203,7 +236,7 @@ If everything was done correctly, you will get `game_orbis_bankrelease.elf`. Ren
 
 ## Transferring Build Files + BUILD PACKAGE:
 
-1. Install the unmodified PKG of the base game on your PS4. `(https://1fichier.com/?owilwri8303p58o3x72u&af=3662447)`
+1. Install the unmodified PKG of the base game on your PS4. https://1fichier.com/?owilwri8303p58o3x72u&af=3662447
 2. Open the update 1.46 PKG with PS4 Patchbuilder and extract it using the guide above.
 3. Paste the compiled shaders into ‘common\shaders’. You need both `orbis` and `orbis final`.
 4. Paste the compiled `scripts.rpf` into `\ps4\levels\gta5\script`.
