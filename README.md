@@ -133,7 +133,7 @@ You can download the Update PKG for version 1.46 from the following link:
 
 ## Patches
 
-In order to get the game to run, you’ll be required to apply some patches. You can find the mirrors to the diffs/patches [here](https://drive.usercontent.google.com/uc?id=1qDHFCUZP-iWodH8wrKabdxFF7sKuGH8S&authuser=0&export=download).  
+In order to get the game to run, you’ll be required to apply some patches. You can find the mirrors to the diffs/patches [here](https://drive.usercontent.google.com/uc?id=16H-J03XOw6r4Pdv7AQdS-s6Pl8ImzRBh&authuser=0&export=download).  
 Follow the instructions for each patch. Usually, it’s just running:  
 **12/24/2024:**  
 `git apply --reject --whitespace=fix patchname.patch`  
