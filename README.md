@@ -146,11 +146,13 @@ Once the shaders are built, close Visual Studio 2017 and proceed to the next ste
 
    - To build scripts, run this in command prompt  
       —----------------------------------------------------------------------------------
-      X:
-     cd X:\gta5\src\dev_ng
-     setenv
-     cd ..\..\tools_ng\bin\RageScriptEditor
-     ragScriptEditor    
+```batch
+X:
+cd X:\gta5\src\dev_ng
+setenv
+cd ..\..\tools_ng\bin\RageScriptEditor
+ragScriptEditor
+```
       —----------------------------------------------------------------------------------
    - After the editor launches, select “File > Open Project”
    - Then open “X:\gta5\script\dev_ng\singlesplayer\GTA5_SP.scproj”
