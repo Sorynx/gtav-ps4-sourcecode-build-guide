@@ -145,7 +145,7 @@ Once the shaders are built, close Visual Studio 2017 and proceed to the next ste
 ## Building Scripts:
 
    - To build scripts, run this in command prompt  
-—----------------------------------------------------------------------------------
+----------------------------------------------------------------------------------
 ```batch
 X:
 cd X:\gta5\src\dev_ng
