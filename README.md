@@ -241,7 +241,7 @@ If everything was done correctly, you will get `game_orbis_bankrelease.elf`. Ren
 3. Paste the compiled shaders into ‘common\shaders’. You need both `orbis` and `orbis final`.
 4. Paste the compiled `scripts.rpf` into `\ps4\levels\gta5\script`.
 5. Place the `gameconfig2699.xml` file in the main directory.  
-   - The correct `gameconfig2699.xml` file can be obtained from “Required Files/GTA V Custom PS4/gameconfig2699.xml”.
+   - The correct `gameconfig2699.xml` file can be obtained from `Required Files/gameconfig2699.xml`.
 6. Place the compiled “eboot.bin” file in the main directory as well.
 7. Then rebuild the package with PS4 Patch Builder.
 8. Install the modified update PKG on the PS4 using Remote PKG INSTALLER, FTP, or USB.
