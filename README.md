@@ -158,7 +158,7 @@ Shaders are required for the game to load (obviously), so in order to get them w
 1. Open `X:\gta5\src\dev_ng\game\VS_Project\load_sln_unity_2012.bat` and open it with Visual Studio 2012.
 
 2. After you’ve opened the project in Visual Studio 2017, at the top change from **Win32** to **ORBIS**.  
-   Right-click on one of the projects and go to **BankRelease**, then change from **Durango** to **x64**.
+   Right-click on one of the projects and go to **BankRelease**, then change from **Durango** to **ORBIS**.
 
 3. Select all the projects, except the project **Properties** → **C/C++** → **General**, find:  
    **Treat Warnings As Errors**, and set it to **No**.  
