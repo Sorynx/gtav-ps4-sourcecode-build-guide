@@ -228,7 +228,7 @@ If everything was done correctly, you will get `game_orbis_bankrelease.elf`. Ren
 
 ## EXTRACT CONTENT OF PKG UPDATE
 
-1. Download the PS4 Patch builder from: https://archive.org/details/patch-builder-v-1.3.3 
+1. Download the PS4 Patch builder
 2. Extract the folder from the zip file.
 3. Run `Patch Builder v.1.3.3.exe`. (don't worry if it's detected as a virus, it is a false positive)
 4. On the right side under Package Extraction, select the 3 dots and choose your Package file.
