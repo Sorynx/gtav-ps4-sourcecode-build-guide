@@ -155,7 +155,7 @@ Now that the base preparations are out of the way, we can finally get to buildin
 
 Shaders are required for the game to load (obviously), so in order to get them working, we must build them. To do so:
 
-1. Open `X:\gta5\src\dev_ng\game\VS_Project\load_sln_unity_2012.bat` and open it with Visual Studio 2012.
+1. Open `X:\gta5\src\dev_ng\game\VS_Project\load_sln_unity_2012.bat` and open it with Visual Studio 2017.
 
 2. After you’ve opened the project in Visual Studio 2017, at the top change from **Win32** to **ORBIS**.  
    Right-click on one of the projects and go to **BankRelease**, then change from **Durango** to **ORBIS**.
